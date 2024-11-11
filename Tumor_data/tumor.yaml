@@ -1,0 +1,6 @@
+train: Tumor_data/train
+val: Tumor_data/valid
+test: Tumor_data/test
+
+nc: 5
+names: ['NO_tumor', 'glioma', 'meningioma', 'pituitary', 'space-occupying lesion-']
