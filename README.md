@@ -1,4 +1,4 @@
-![Alt_text]([Brain_tumor_detect.png](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMTtF9kjQ29-kJ6Gcw6owYv7Z-I8KVhBrxJg&s)
+![Alt_text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMTtF9kjQ29-kJ6Gcw6owYv7Z-I8KVhBrxJg&s)
 
 # Tumor Detection
 
