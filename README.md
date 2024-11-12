@@ -9,7 +9,7 @@ This project uses a combination of state-of-the-art tools and libraries to train
 A brain tumor is an abnormal growth of cells within the brain. It can either be benign (non-cancerous) or malignant (cancerous). Tumors in the brain can cause pressure, leading to serious issues like brain damage, and may be life-threatening. Early detection and treatment are crucial for managing brain tumors, with MRI scans commonly used for diagnosis and classification.
 
 In this dataset, there are four main categories of images representing different types of brain scans with various types of tumors or no tumor presence. Here’s a description of each label type:
-![Alt_text](Brain_tumour_detect.jpg)
+![Alt_text](Brain_tumor_detect.jpg)
 ### NO_tumor:
 
 These images contain brain scans that do not show any signs of a tumor. They are used as the baseline or negative class, indicating the absence of abnormalities in the brain tissues.
