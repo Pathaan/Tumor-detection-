@@ -2,6 +2,31 @@
 
 This project uses a combination of state-of-the-art tools and libraries to train a YOLOv5 model for the task of tumor detection in MRI images. The project leverages Google Colab for execution, PyTorch for model development, and YOLOv5 for efficient object detection. It uses a structured workflow, including the installation of dependencies, model training, and result visualization, to develop a robust deep learning model for medical image analysis.
 
+## What is Brain Tumor? 
+A brain tumor is an abnormal growth of cells within the brain. It can either be benign (non-cancerous) or malignant (cancerous). Tumors in the brain can cause pressure, leading to serious issues like brain damage, and may be life-threatening. Early detection and treatment are crucial for managing brain tumors, with MRI scans commonly used for diagnosis and classification.
+
+In this dataset, there are four main categories of images representing different types of brain scans with various types of tumors or no tumor presence. Here’s a description of each label type:
+
+NO_tumor:
+
+These images contain brain scans that do not show any signs of a tumor. They are used as the baseline or negative class, indicating the absence of abnormalities in the brain tissues.
+
+Glioma:
+
+Gliomas are a type of tumor that arises from glial cells in the brain, which support and protect neurons. These tumors can be malignant and vary in aggressiveness. In brain scan images, gliomas often appear as irregularly shaped masses with variations in tissue density, depending on their grade.
+
+Meningioma:
+
+Meningiomas are tumors that form in the meninges, which are the protective layers surrounding the brain and spinal cord. They are usually benign, although some can become malignant. Meningiomas in scans typically appear as well-defined, lobulated masses on the surface of the brain, often near the skull.
+
+Pituitary:
+
+Pituitary tumors, or pituitary adenomas, occur in the pituitary gland at the base of the brain. These tumors can affect hormone production, causing various physical symptoms. Pituitary tumors often appear as small, rounded lesions in brain scans, located centrally near the brain's base.
+
+Space-occupying lesion:
+
+This label includes any lesions that occupy space in the brain, possibly indicating tumors, abscesses, cysts, or hemorrhages. These lesions can vary widely in appearance and location. The label can include both benign and malignant masses that affect surrounding brain tissue due to their size or position.
+
 ## YOLOv5
 
 YOLOv5 (You Only Look Once version 5) is a real-time object detection model that’s widely used in computer vision applications for identifying and locating objects within an image or video. Developed by Ultralytics in 2020, YOLOv5 is part of the YOLO family of models, renowned for their balance of speed and accuracy, making them suitable for applications where real-time processing is crucial. While earlier versions of YOLO were developed in frameworks like Darknet, YOLOv5 is written entirely in PyTorch, making it more accessible, adaptable, and faster to deploy, especially for researchers and practitioners familiar with the PyTorch ecosystem. 
