@@ -17,3 +17,6 @@ Pytorch
 OpenCV
 
 Matplotlib
+
+## Confusion Matrix
+![Alt text](confusion_matrix.png)
