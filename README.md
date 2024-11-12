@@ -46,6 +46,9 @@ OpenCV
 Matplotlib
 
 ## Model Training and Validation Performance
+
+In this project, I utilized YOLOv5 for tumor detection in MRI images. The workflow began by setting up the environment and installing the necessary dependencies. After preparing the dataset with the tumor.yaml configuration, the model was trained using the yolov5s.yaml architecture for 50 epochs with a batch size of 8. The model's performance was then evaluated, and the best-performing model was exported to TorchScript and ONNX formats for deployment. This process ensures efficient tumor detection for medical applications.
+
 ![Alt text](results.png)
 The training and validation metrics over 50 epochs for the object detection model indicate effective learning and generalization. Key observations include:
 
