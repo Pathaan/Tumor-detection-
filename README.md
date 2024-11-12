@@ -1,4 +1,4 @@
-# Tumor-detection
+# Tumor Detection
 
 ## YOLOv5
 
