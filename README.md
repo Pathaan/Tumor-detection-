@@ -1,5 +1,5 @@
 ![Alt_text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMTtF9kjQ29-kJ6Gcw6owYv7Z-I8KVhBrxJg&s)
-
+![Alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvLCK15PkVaOCMTnllDWrC1fGPMe7q38Ofkw&s)
 # Tumor Detection
 
 This project uses a combination of state-of-the-art tools and libraries to train a YOLOv5 model for the task of tumor detection in MRI images. The project leverages Google Colab for execution, PyTorch for model development, and YOLOv5 for efficient object detection. It uses a structured workflow, including the installation of dependencies, model training, and result visualization, to develop a robust deep learning model for medical image analysis.
