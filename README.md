@@ -18,5 +18,26 @@ OpenCV
 
 Matplotlib
 
-## Confusion Matrix
-![Alt text](confusion_matrix.png)
+## Model Training and Validation Performance
+![Alt text](results.png)
+The training and validation metrics over 50 epochs for the object detection model indicate effective learning and generalization. Key observations include:
+
+### Losses (Top and Bottom Left Panels)
+Training Losses: The train/box_loss, train/obj_loss, and train/cls_loss curves decrease consistently, indicating improvements in bounding box localization, objectness, and classification.
+Validation Losses: The val/box_loss, val/obj_loss, and val/cls_loss curves show a similar downward trend as the training losses, suggesting that the model generalizes well with no signs of overfitting.
+
+### Precision and Recall (Top Right Panels)
+The metrics/precision and metrics/recall metrics exhibit an upward trend, stabilizing near 0.9 and 0.6, respectively. This demonstrates that the model’s accuracy in detecting objects improves and reaches a stable performance level over the epochs.
+
+### Mean Average Precision (mAP) Scores (Bottom Right Panels)
+The metrics/mAP_0.5 and metrics/mAP_0.5:0.95 scores increase steadily, reaching approximately 0.8 and 0.5, respectively. These mAP scores indicate enhanced detection accuracy across various Intersection over Union (IoU) thresholds, reflecting robust model performance.
+
+### Summary
+Overall, the model shows strong convergence and balanced performance across training and validation data. Declining loss curves and rising precision, recall, and mAP scores indicate effective learning and minimal overfitting, highlighting the model's readiness for deployment.
+
+
+
+
+
+
+
